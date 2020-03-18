@@ -29,7 +29,7 @@
 
   <meta name="viewport" content="width=device-width">
   
-  <title>getting-and-cleaning-data-course-project/README.md at master · spujadas/getting-and-cleaning-data-course-project</title>
+  <title>getting-and-cleaning-data-course-project/CodeBook.md at master · spujadas/getting-and-cleaning-data-course-project</title>
     <meta name="description" content="Coursera Getting and Cleaning Data course project. Contribute to spujadas/getting-and-cleaning-data-course-project development by creating an account on GitHub.">
     <link rel="search" type="application/opensearchdescription+xml" href="/opensearch.xml" title="GitHub">
   <link rel="fluid-icon" href="https://github.com/fluidicon.png" title="GitHub">
@@ -39,10 +39,10 @@
     <meta property="og:image" content="https://avatars3.githubusercontent.com/u/930566?s=400&amp;v=4" /><meta property="og:site_name" content="GitHub" /><meta property="og:type" content="object" /><meta property="og:title" content="spujadas/getting-and-cleaning-data-course-project" /><meta property="og:url" content="https://github.com/spujadas/getting-and-cleaning-data-course-project" /><meta property="og:description" content="Coursera Getting and Cleaning Data course project. Contribute to spujadas/getting-and-cleaning-data-course-project development by creating an account on GitHub." />
 
   <link rel="assets" href="https://github.githubassets.com/">
-  <link rel="web-socket" href="wss://live.github.com/_sockets/VjI6NDk2MDE3OTg2OjYyMmM0MWU0NTU5ZDdkMTM0Yzg5M2NmYTMzNWUyYTUyOTQ2ZDE2NTdmZDYyNWI5MGYzMTBmMTVmM2E0Mzc1MDA=--26b39fd0de9a99c73e9412c7bc6be7d50dd2529c">
+  <link rel="web-socket" href="wss://live.github.com/_sockets/VjI6NDk2MDE3OTg2OmUwMzMyYTFiYTA0ZjA3NGI3MTYwYTc1ZTBlM2VmOGI1ZjEzMDNkZDQwYTMzZjkzZWY2YjA0ZDg4ZmFmYzY5Njg=--061a7aed5a6f367307de14a2c58020849af68c33">
   <link rel="sudo-modal" href="/sessions/sudo_modal">
 
-  <meta name="request-id" content="F29C:6103:11F603:187F45:5E71A0AC" data-pjax-transient="true" /><meta name="html-safe-nonce" content="ff74d326edbdbbceb149db0a5e8ddc3eead29956" data-pjax-transient="true" /><meta name="visitor-payload" content="eyJyZWZlcnJlciI6Imh0dHBzOi8vZ2l0aHViLmNvbS9zcHVqYWRhcy9nZXR0aW5nLWFuZC1jbGVhbmluZy1kYXRhLWNvdXJzZS1wcm9qZWN0IiwicmVxdWVzdF9pZCI6IkYyOUM6NjEwMzoxMUY2MDM6MTg3RjQ1OjVFNzFBMEFDIiwidmlzaXRvcl9pZCI6IjM5MjU1OTY3ODE1MjUxODMwOTAiLCJyZWdpb25fZWRnZSI6ImFwLXNvdXRoLTEiLCJyZWdpb25fcmVuZGVyIjoiaWFkIn0=" data-pjax-transient="true" /><meta name="visitor-hmac" content="700d2e5db64c694870777120f990d581a91a4e2e065b9f34c5c6a04082da3067" data-pjax-transient="true" />
+  <meta name="request-id" content="F298:28AE:78F07:A5479:5E71A097" data-pjax-transient="true" /><meta name="html-safe-nonce" content="ff74d326edbdbbceb149db0a5e8ddc3eead29956" data-pjax-transient="true" /><meta name="visitor-payload" content="eyJyZWZlcnJlciI6Imh0dHBzOi8vZ2l0aHViLmNvbS9zcHVqYWRhcy9nZXR0aW5nLWFuZC1jbGVhbmluZy1kYXRhLWNvdXJzZS1wcm9qZWN0IiwicmVxdWVzdF9pZCI6IkYyOTg6MjhBRTo3OEYwNzpBNTQ3OTo1RTcxQTA5NyIsInZpc2l0b3JfaWQiOiIzOTI1NTk2NzgxNTI1MTgzMDkwIiwicmVnaW9uX2VkZ2UiOiJhcC1zb3V0aC0xIiwicmVnaW9uX3JlbmRlciI6ImlhZCJ9" data-pjax-transient="true" /><meta name="visitor-hmac" content="f7c3a6f001c9b44fe8b7c6ef56138fe6e22501866c703995c21c3b841bf93080" data-pjax-transient="true" />
 
 
 
@@ -76,7 +76,7 @@
 
       <meta name="expected-hostname" content="github.com">
 
-      <meta name="js-proxy-site-detection-payload" content="Njg3YWVhMGQ0ZjQ4NTNkYWM1MjNlM2JmNTU1ZmQ5MTllZDgwOTkwOGM5NmM3ODY2MTE1OGE0N2IyYjJmMDMzNHx7InJlbW90ZV9hZGRyZXNzIjoiMTE2LjY2LjE4OS4xMTAiLCJyZXF1ZXN0X2lkIjoiRjI5Qzo2MTAzOjExRjYwMzoxODdGNDU6NUU3MUEwQUMiLCJ0aW1lc3RhbXAiOjE1ODQ1MDUwMDQsImhvc3QiOiJnaXRodWIuY29tIn0=">
+      <meta name="js-proxy-site-detection-payload" content="MDhiODAzY2NlYWFlYTBkZTljMDQ3ZGI2Yjg2OTdiOTQ5ODNkNGU2MWIwMTFjODU2ZWI3MTIyNjA2ODRkMzg5Znx7InJlbW90ZV9hZGRyZXNzIjoiMTE2LjY2LjE4OS4xMTAiLCJyZXF1ZXN0X2lkIjoiRjI5ODoyOEFFOjc4RjA3OkE1NDc5OjVFNzFBMDk3IiwidGltZXN0YW1wIjoxNTg0NTA0OTg0LCJob3N0IjoiZ2l0aHViLmNvbSJ9">
 
     <meta name="enabled-features" content="MARKETPLACE_FEATURED_BLOG_POSTS,MARKETPLACE_INVOICED_BILLING,MARKETPLACE_SOCIAL_PROOF_CUSTOMERS,MARKETPLACE_TRENDING_SOCIAL_PROOF,MARKETPLACE_RECOMMENDATIONS,MARKETPLACE_PENDING_INSTALLATIONS,RELATED_ISSUES,GHE_CLOUD_TRIAL,PAGE_STALE_CHECK">
 
@@ -90,7 +90,7 @@
   <meta name="octolytics-dimension-user_id" content="930566" /><meta name="octolytics-dimension-user_login" content="spujadas" /><meta name="octolytics-dimension-repository_id" content="50292410" /><meta name="octolytics-dimension-repository_nwo" content="spujadas/getting-and-cleaning-data-course-project" /><meta name="octolytics-dimension-repository_public" content="true" /><meta name="octolytics-dimension-repository_is_fork" content="false" /><meta name="octolytics-dimension-repository_network_root_id" content="50292410" /><meta name="octolytics-dimension-repository_network_root_nwo" content="spujadas/getting-and-cleaning-data-course-project" /><meta name="octolytics-dimension-repository_explore_github_marketplace_ci_cta_shown" content="false" />
 
 
-    <link rel="canonical" href="https://github.com/spujadas/getting-and-cleaning-data-course-project/blob/master/README.md" data-pjax-transient>
+    <link rel="canonical" href="https://github.com/spujadas/getting-and-cleaning-data-course-project/blob/master/CodeBook.md" data-pjax-transient>
 
 
   <meta name="browser-stats-url" content="https://api.github.com/_private/browser/stats">
@@ -164,7 +164,7 @@
           spellcheck="false"
           autocomplete="off"
           >
-          <input type="hidden" value="pHUAfWn4kYxUx2KdJyiKtolC1/E5fRRk9SvBHuuaHwV1yhXNLIk5FBMuAQMUmy/r8RxiNa/uo6O7zX1g5vE2eQ==" data-csrf="true" class="js-data-jump-to-suggestions-path-csrf" />
+          <input type="hidden" value="ZHABOs532CW+hQoR2LN9Q0S595G3vz2D1xaYEarYQlu1zxSKiwZwvflsaY/rANgePOdCVSEsikSZ8CRvp7NrJw==" data-csrf="true" class="js-data-jump-to-suggestions-path-csrf" />
           <input type="hidden" class="js-site-search-type-field" name="type" >
             <img src="https://github.githubassets.com/images/search-key-slash.svg" alt="" class="mr-2 header-search-key-slash">
 
@@ -315,7 +315,7 @@
       <img class="avatar" height="20" width="20" alt="@akshitkashyap" src="https://avatars2.githubusercontent.com/u/60666183?s=60&amp;v=4" />
       akshitkashyap
 </a>
-    <!-- '"` --><!-- </textarea></xmp> --></option></form><form action="/logout" accept-charset="UTF-8" method="post"><input type="hidden" name="authenticity_token" value="78wleUplyiXUsnC+YdpP6PkA+8dLgFxYkK8iq7pfCScEKtFNxaxOJrcoPhEPhTmpMISh/qnRi2XAt9KDRXOvsQ==" />
+    <!-- '"` --><!-- </textarea></xmp> --></option></form><form action="/logout" accept-charset="UTF-8" method="post"><input type="hidden" name="authenticity_token" value="cXdq7dagR6yXfBDORyLaFnT/ds2fIlc6vX+lpTOG8P2akZ7ZWWnDr/TmXmEpfaxXvXss9H1zgAftZ1WNzKpWaw==" />
       <button type="submit" class="Header-link mr-0 mr-lg-3 py-2 py-lg-0 border-top border-lg-top-0 border-white-fade-15 d-lg-none btn-link d-block width-full text-left" data-ga-click="Header, sign out, icon:logout" style="padding-left: 2px;">
         <svg class="octicon octicon-sign-out v-align-middle" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M12 9V7H8V5h4V3l4 3-4 3zm-2 3H6V3L2 1h8v3h1V1c0-.55-.45-1-1-1H1C.45 0 0 .45 0 1v11.38c0 .39.22.73.55.91L6 16.01V13h4c.55 0 1-.45 1-1V8h-1v4z"/></svg>
         Sign out
@@ -409,7 +409,7 @@
   " data-team-hovercards-enabled>
   <details class="js-user-status-details details-reset details-overlay details-overlay-dark">
     <summary class="btn-link btn-block link-gray no-underline js-toggle-user-status-edit toggle-user-status-edit "
-      role="menuitem" data-hydro-click="{&quot;event_type&quot;:&quot;user_profile.click&quot;,&quot;payload&quot;:{&quot;profile_user_id&quot;:930566,&quot;target&quot;:&quot;EDIT_USER_STATUS&quot;,&quot;user_id&quot;:60666183,&quot;originating_url&quot;:&quot;https://github.com/spujadas/getting-and-cleaning-data-course-project/blob/master/README.md&quot;}}" data-hydro-click-hmac="68a865027fe0a34530a05263d8df605dd9729aecde6e555d2c2b3c85054c165c">
+      role="menuitem" data-hydro-click="{&quot;event_type&quot;:&quot;user_profile.click&quot;,&quot;payload&quot;:{&quot;profile_user_id&quot;:930566,&quot;target&quot;:&quot;EDIT_USER_STATUS&quot;,&quot;user_id&quot;:60666183,&quot;originating_url&quot;:&quot;https://github.com/spujadas/getting-and-cleaning-data-course-project/blob/master/CodeBook.md&quot;}}" data-hydro-click-hmac="b8c569fc91b227d90055484f537a520a9594a26bbee91132fc93b6cae3e8baa2">
       <div class="d-flex">
         <div class="f6 lh-condensed user-status-header
           d-inline-block v-align-middle
@@ -436,7 +436,7 @@
       </div>
     </summary>
     <details-dialog class="details-dialog rounded-1 anim-fade-in fast Box Box--overlay" role="dialog" tabindex="-1">
-      <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="position-relative flex-auto js-user-status-form" action="/users/status?compact=1&amp;link_mentions=0&amp;truncate=1" accept-charset="UTF-8" method="post"><input type="hidden" name="_method" value="put" /><input type="hidden" name="authenticity_token" value="Ke/dyt2Moy4udbLeccLrT2uSXwl1AsQyQq1x5GJ7s6nGsSR2suJre1myfdEHQXclz9OjmKiz+nkFtKhhNddX+A==" />
+      <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="position-relative flex-auto js-user-status-form" action="/users/status?compact=1&amp;link_mentions=0&amp;truncate=1" accept-charset="UTF-8" method="post"><input type="hidden" name="_method" value="put" /><input type="hidden" name="authenticity_token" value="jj8zy4ssTJipnKjYpD3gCTQxVldkhPWDXiOPYd5oXr9hYcp35EKEzd5bZ9fSvnxjkHCqxrk1y8gZOlbkicS67g==" />
         <div class="Box-header bg-gray border-bottom p-3">
           <button class="Box-btn-octicon js-toggle-user-status-edit btn-octicon float-right" type="reset" aria-label="Close dialog" data-close-dialog>
             <svg class="octicon octicon-x" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M7.48 8l3.75 3.75-1.48 1.48L6 9.48l-3.75 3.75-1.48-1.48L4.52 8 .77 4.25l1.48-1.48L6 6.52l3.75-3.75 1.48 1.48L7.48 8z"/></svg>
@@ -554,17 +554,17 @@
       </li>
       <li class="dropdown-divider" role="none"></li>
         <li>
-          <button type="button" class="btn-link dropdown-item ws-normal js-user-status-expire-button" title="in 30 minutes" value="2020-03-18T10:16:44+05:30">
+          <button type="button" class="btn-link dropdown-item ws-normal js-user-status-expire-button" title="in 30 minutes" value="2020-03-18T10:16:24+05:30">
             in 30 minutes
           </button>
         </li>
         <li>
-          <button type="button" class="btn-link dropdown-item ws-normal js-user-status-expire-button" title="in 1 hour" value="2020-03-18T10:46:44+05:30">
+          <button type="button" class="btn-link dropdown-item ws-normal js-user-status-expire-button" title="in 1 hour" value="2020-03-18T10:46:24+05:30">
             in 1 hour
           </button>
         </li>
         <li>
-          <button type="button" class="btn-link dropdown-item ws-normal js-user-status-expire-button" title="in 4 hours" value="2020-03-18T13:46:44+05:30">
+          <button type="button" class="btn-link dropdown-item ws-normal js-user-status-expire-button" title="in 4 hours" value="2020-03-18T13:46:24+05:30">
             in 4 hours
           </button>
         </li>
@@ -622,10 +622,10 @@
     class="dropdown-item btn-link"
     role="menuitem"
     data-feature-preview-trigger-url="/users/akshitkashyap/feature_previews"
-    data-feature-preview-close-details="{&quot;event_type&quot;:&quot;feature_preview.clicks.close_modal&quot;,&quot;payload&quot;:{&quot;originating_url&quot;:&quot;https://github.com/spujadas/getting-and-cleaning-data-course-project/blob/master/README.md&quot;,&quot;user_id&quot;:60666183}}"
-    data-feature-preview-close-hmac="baaef8716882215464e6b4daee30ab90480f2136c62ccb3ff6ab1d1e5769010c"
-    data-hydro-click="{&quot;event_type&quot;:&quot;feature_preview.clicks.open_modal&quot;,&quot;payload&quot;:{&quot;link_location&quot;:&quot;user_dropdown&quot;,&quot;originating_url&quot;:&quot;https://github.com/spujadas/getting-and-cleaning-data-course-project/blob/master/README.md&quot;,&quot;user_id&quot;:60666183}}"
-    data-hydro-click-hmac="e6e71288cd87fc2752334cb289c0c7bad2a4970ef4d65aa27d5b557f9987293b"
+    data-feature-preview-close-details="{&quot;event_type&quot;:&quot;feature_preview.clicks.close_modal&quot;,&quot;payload&quot;:{&quot;originating_url&quot;:&quot;https://github.com/spujadas/getting-and-cleaning-data-course-project/blob/master/CodeBook.md&quot;,&quot;user_id&quot;:60666183}}"
+    data-feature-preview-close-hmac="b2094f81fbd88f6aeed4485208782c64fab147d6b3663a4f5e7940d160b84bc2"
+    data-hydro-click="{&quot;event_type&quot;:&quot;feature_preview.clicks.open_modal&quot;,&quot;payload&quot;:{&quot;link_location&quot;:&quot;user_dropdown&quot;,&quot;originating_url&quot;:&quot;https://github.com/spujadas/getting-and-cleaning-data-course-project/blob/master/CodeBook.md&quot;,&quot;user_id&quot;:60666183}}"
+    data-hydro-click-hmac="8b32c05e30a72a74ade725c81229e8e3d8de5ccffa90960778c79da349332009"
   >
     Feature preview
   </button>
@@ -634,12 +634,12 @@
 
     <a role="menuitem" class="dropdown-item" href="https://help.github.com" data-ga-click="Header, go to help, text:help">Help</a>
     <a role="menuitem" class="dropdown-item" href="/settings/profile" data-ga-click="Header, go to settings, icon:settings">Settings</a>
-    <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="logout-form" action="/logout" accept-charset="UTF-8" method="post"><input type="hidden" name="authenticity_token" value="4fy6Lss2X6bEnX0fD5Q8jDXfBuxeKzXrP5FPeoZC2aQKGk4aRP/bpacHM7Bhy0rN/Ftc1bx64tZvib9SeW5/Mg==" />
+    <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="logout-form" action="/logout" accept-charset="UTF-8" method="post"><input type="hidden" name="authenticity_token" value="721VrBJMragcCglqI44UkDZk7H36W/2vAo+vPZ7BexwEi6GYnYUpq3+QR8VN0WLR/+C2RBgKKpJSl18VYe3dig==" />
       
       <button type="submit" class="dropdown-item dropdown-signout" data-ga-click="Header, sign out, icon:logout" role="menuitem">
         Sign out
       </button>
-      <input type="text" name="required_field_54ec" hidden="hidden" class="form-control" /><input type="hidden" name="timestamp" value="1584505004997" class="form-control" /><input type="hidden" name="timestamp_secret" value="2aba8c6d14cb2d2c91a0e57b75016edfff84381488881dd3ce5d5e85270ffcb4" class="form-control" />
+      <input type="text" name="required_field_ade1" hidden="hidden" class="form-control" /><input type="hidden" name="timestamp" value="1584504984505" class="form-control" /><input type="hidden" name="timestamp_secret" value="66e30615d1ec3d1110c67c3193011f672ce5c40553887ee302963f946c433f30" class="form-control" />
 </form>  </details-menu>
 </details>
 
@@ -707,13 +707,17 @@
 
 
 
+    <li hidden>
+      <include-fragment src="/spujadas/getting-and-cleaning-data-course-project/used_by_count" accept="text/fragment+html">
+</include-fragment>
+    </li>
 
   <li>
     
-    <!-- '"` --><!-- </textarea></xmp> --></option></form><form data-remote="true" class="clearfix js-social-form js-social-container" action="/notifications/subscribe" accept-charset="UTF-8" method="post"><input type="hidden" name="authenticity_token" value="sogm53xkQ2lCNcuWfT9NW2rIoSnxR1vOzxntzT22XhaQK6SnUmda0N3ibQabqpX/F6kjI+1QnmkZntowaSG+ww==" />      <input type="hidden" name="repository_id" value="50292410">
+    <!-- '"` --><!-- </textarea></xmp> --></option></form><form data-remote="true" class="clearfix js-social-form js-social-container" action="/notifications/subscribe" accept-charset="UTF-8" method="post"><input type="hidden" name="authenticity_token" value="JMdc5i53NkiicYOmlRYZisJShAoxLX4fBmaAxyfJk44GZN6mAHQv8T2mJTZzg8EuvzMGAC06u7jQ4bc6c15zWw==" />      <input type="hidden" name="repository_id" value="50292410">
 
       <details class="details-reset details-overlay select-menu float-left">
-        <summary class="select-menu-button float-left btn btn-sm btn-with-count" data-hydro-click="{&quot;event_type&quot;:&quot;repository.click&quot;,&quot;payload&quot;:{&quot;target&quot;:&quot;WATCH_BUTTON&quot;,&quot;repository_id&quot;:50292410,&quot;originating_url&quot;:&quot;https://github.com/spujadas/getting-and-cleaning-data-course-project/blob/master/README.md&quot;,&quot;user_id&quot;:60666183}}" data-hydro-click-hmac="bcbcd8a5a3b30125a86ba87f4a8b030bb94bb3707b15e8384cf9dca5aea10110" data-ga-click="Repository, click Watch settings, action:blob#show">          <span data-menu-button>
+        <summary class="select-menu-button float-left btn btn-sm btn-with-count" data-hydro-click="{&quot;event_type&quot;:&quot;repository.click&quot;,&quot;payload&quot;:{&quot;target&quot;:&quot;WATCH_BUTTON&quot;,&quot;repository_id&quot;:50292410,&quot;originating_url&quot;:&quot;https://github.com/spujadas/getting-and-cleaning-data-course-project/blob/master/CodeBook.md&quot;,&quot;user_id&quot;:60666183}}" data-hydro-click-hmac="25fd5cd1b6e70c9b2d8b5ef2a48bd276a2796272af97b49669aae49ea9019338" data-ga-click="Repository, click Watch settings, action:blob#show">          <span data-menu-button>
               <svg class="octicon octicon-eye v-align-text-bottom" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M8.06 2C3 2 0 8 0 8s3 6 8.06 6C13 14 16 8 16 8s-3-6-7.94-6zM8 12c-2.2 0-4-1.78-4-4 0-2.2 1.8-4 4-4 2.22 0 4 1.8 4 4 0 2.22-1.78 4-4 4zm2-4c0 1.11-.89 2-2 2-1.11 0-2-.89-2-2 0-1.11.89-2 2-2 1.11 0 2 .89 2 2z"/></svg>
               Watch
           </span>
@@ -784,9 +788,9 @@
 
   <li>
       <div class="js-toggler-container js-social-container starring-container ">
-    <form class="starred js-social-form" action="/spujadas/getting-and-cleaning-data-course-project/unstar" accept-charset="UTF-8" method="post"><input type="hidden" name="authenticity_token" value="jt7UhrQwWoiBk1LjeDq1165zSJQoyxK4scdkf59YHU9WKypm700Yqccd5X9Jjb0wVGDMQTd4EadZJl57ZnAoyw==" />
+    <form class="starred js-social-form" action="/spujadas/getting-and-cleaning-data-course-project/unstar" accept-charset="UTF-8" method="post"><input type="hidden" name="authenticity_token" value="DfU5O61p11TYmbI7crlYi4YGhvE6zqy8c0ab4mBnSpvVAMfb9hSVdZ4XBadDDlBsfBUCJCV9r6Obp6HmmU9/Hw==" />
       <input type="hidden" name="context" value="repository"></input>
-      <button type="submit" class="btn btn-sm btn-with-count js-toggler-target" aria-label="Unstar this repository" title="Unstar spujadas/getting-and-cleaning-data-course-project" data-hydro-click="{&quot;event_type&quot;:&quot;repository.click&quot;,&quot;payload&quot;:{&quot;target&quot;:&quot;UNSTAR_BUTTON&quot;,&quot;repository_id&quot;:50292410,&quot;originating_url&quot;:&quot;https://github.com/spujadas/getting-and-cleaning-data-course-project/blob/master/README.md&quot;,&quot;user_id&quot;:60666183}}" data-hydro-click-hmac="301a4ccc331651d3b0f7c91136f37093098ec5eac83c6a59b82d227c4fb0e285" data-ga-click="Repository, click unstar button, action:blob#show; text:Unstar">        <svg height="16" class="octicon octicon-star v-align-text-bottom" vertical_align="text_bottom" viewBox="0 0 14 16" version="1.1" width="14" aria-hidden="true"><path fill-rule="evenodd" d="M14 6l-4.9-.64L7 1 4.9 5.36 0 6l3.6 3.26L2.67 14 7 11.67 11.33 14l-.93-4.74L14 6z"/></svg>
+      <button type="submit" class="btn btn-sm btn-with-count js-toggler-target" aria-label="Unstar this repository" title="Unstar spujadas/getting-and-cleaning-data-course-project" data-hydro-click="{&quot;event_type&quot;:&quot;repository.click&quot;,&quot;payload&quot;:{&quot;target&quot;:&quot;UNSTAR_BUTTON&quot;,&quot;repository_id&quot;:50292410,&quot;originating_url&quot;:&quot;https://github.com/spujadas/getting-and-cleaning-data-course-project/blob/master/CodeBook.md&quot;,&quot;user_id&quot;:60666183}}" data-hydro-click-hmac="57a46f72a6115587757727a829d7fe1b4d1af08d2f2426fb8e1d0ae9905eeb19" data-ga-click="Repository, click unstar button, action:blob#show; text:Unstar">        <svg height="16" class="octicon octicon-star v-align-text-bottom" vertical_align="text_bottom" viewBox="0 0 14 16" version="1.1" width="14" aria-hidden="true"><path fill-rule="evenodd" d="M14 6l-4.9-.64L7 1 4.9 5.36 0 6l3.6 3.26L2.67 14 7 11.67 11.33 14l-.93-4.74L14 6z"/></svg>
 
         Unstar
 </button>        <a class="social-count js-social-count" href="/spujadas/getting-and-cleaning-data-course-project/stargazers"
@@ -794,9 +798,9 @@
            6
         </a>
 </form>
-    <form class="unstarred js-social-form" action="/spujadas/getting-and-cleaning-data-course-project/star" accept-charset="UTF-8" method="post"><input type="hidden" name="authenticity_token" value="rzTjwdOJpnzPcGtP1MhZ4b6d/flDgPfsusriSZdIff92OunBMDxTpiy++rh/fJ6R2oUz3db61Xaw3LGSzBz0GA==" />
+    <form class="unstarred js-social-form" action="/spujadas/getting-and-cleaning-data-course-project/star" accept-charset="UTF-8" method="post"><input type="hidden" name="authenticity_token" value="HHLh5rzi6VTI6A/DLqFDeb7BlvS0zoJjPrKPInuwclLFfOvmX1ccjismnjSFFYQJ2tlY0CG0oPk0pNz5IOT7tQ==" />
       <input type="hidden" name="context" value="repository"></input>
-      <button type="submit" class="btn btn-sm btn-with-count js-toggler-target" aria-label="Unstar this repository" title="Star spujadas/getting-and-cleaning-data-course-project" data-hydro-click="{&quot;event_type&quot;:&quot;repository.click&quot;,&quot;payload&quot;:{&quot;target&quot;:&quot;STAR_BUTTON&quot;,&quot;repository_id&quot;:50292410,&quot;originating_url&quot;:&quot;https://github.com/spujadas/getting-and-cleaning-data-course-project/blob/master/README.md&quot;,&quot;user_id&quot;:60666183}}" data-hydro-click-hmac="9af32adf03d2641c53fc383b515cb0a13bbb7a6536af778d00fa30d498ecbddf" data-ga-click="Repository, click star button, action:blob#show; text:Star">        <svg height="16" class="octicon octicon-star v-align-text-bottom" vertical_align="text_bottom" viewBox="0 0 14 16" version="1.1" width="14" aria-hidden="true"><path fill-rule="evenodd" d="M14 6l-4.9-.64L7 1 4.9 5.36 0 6l3.6 3.26L2.67 14 7 11.67 11.33 14l-.93-4.74L14 6z"/></svg>
+      <button type="submit" class="btn btn-sm btn-with-count js-toggler-target" aria-label="Unstar this repository" title="Star spujadas/getting-and-cleaning-data-course-project" data-hydro-click="{&quot;event_type&quot;:&quot;repository.click&quot;,&quot;payload&quot;:{&quot;target&quot;:&quot;STAR_BUTTON&quot;,&quot;repository_id&quot;:50292410,&quot;originating_url&quot;:&quot;https://github.com/spujadas/getting-and-cleaning-data-course-project/blob/master/CodeBook.md&quot;,&quot;user_id&quot;:60666183}}" data-hydro-click-hmac="5d4e999c04888727361a0d941bfccc2aec7c86fbf89f267d964069391aa9283e" data-ga-click="Repository, click star button, action:blob#show; text:Star">        <svg height="16" class="octicon octicon-star v-align-text-bottom" vertical_align="text_bottom" viewBox="0 0 14 16" version="1.1" width="14" aria-hidden="true"><path fill-rule="evenodd" d="M14 6l-4.9-.64L7 1 4.9 5.36 0 6l3.6 3.26L2.67 14 7 11.67 11.33 14l-.93-4.74L14 6z"/></svg>
 
         Star
 </button>        <a class="social-count js-social-count" href="/spujadas/getting-and-cleaning-data-course-project/stargazers"
@@ -808,8 +812,8 @@
   </li>
 
   <li>
-          <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="btn-with-count" action="/spujadas/getting-and-cleaning-data-course-project/fork" accept-charset="UTF-8" method="post"><input type="hidden" name="authenticity_token" value="yEJaIcNoxL9YQPrROb0iue2yKuL9mryL3Geti/Z5tgD/k4qBVFoZ0MO2CM3hWzQUsjbR28+1kz+NjZMMxKdEcw==" />
-            <button class="btn btn-sm btn-with-count" data-hydro-click="{&quot;event_type&quot;:&quot;repository.click&quot;,&quot;payload&quot;:{&quot;target&quot;:&quot;FORK_BUTTON&quot;,&quot;repository_id&quot;:50292410,&quot;originating_url&quot;:&quot;https://github.com/spujadas/getting-and-cleaning-data-course-project/blob/master/README.md&quot;,&quot;user_id&quot;:60666183}}" data-hydro-click-hmac="bce7bd655c8b1753f22172dd7f74a295e598e021fd7b2175ef17088740cd0fe9" data-ga-click="Repository, show fork modal, action:blob#show; text:Fork" type="submit" title="Fork your own copy of spujadas/getting-and-cleaning-data-course-project to your account" aria-label="Fork your own copy of spujadas/getting-and-cleaning-data-course-project to your account">              <svg class="octicon octicon-repo-forked v-align-text-bottom" viewBox="0 0 10 16" version="1.1" width="10" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M8 1a1.993 1.993 0 00-1 3.72V6L5 8 3 6V4.72A1.993 1.993 0 002 1a1.993 1.993 0 00-1 3.72V6.5l3 3v1.78A1.993 1.993 0 005 15a1.993 1.993 0 001-3.72V9.5l3-3V4.72A1.993 1.993 0 008 1zM2 4.2C1.34 4.2.8 3.65.8 3c0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2zm3 10c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2zm3-10c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2z"/></svg>
+          <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="btn-with-count" action="/spujadas/getting-and-cleaning-data-course-project/fork" accept-charset="UTF-8" method="post"><input type="hidden" name="authenticity_token" value="EdaMPMwmS35ly/JdkzkvQ+G3m3a8Q//1zbJ9K8G+7fMmB1ycWxSWEf49AEFL3znuvjNgT45s0EGcWEOs82AfgA==" />
+            <button class="btn btn-sm btn-with-count" data-hydro-click="{&quot;event_type&quot;:&quot;repository.click&quot;,&quot;payload&quot;:{&quot;target&quot;:&quot;FORK_BUTTON&quot;,&quot;repository_id&quot;:50292410,&quot;originating_url&quot;:&quot;https://github.com/spujadas/getting-and-cleaning-data-course-project/blob/master/CodeBook.md&quot;,&quot;user_id&quot;:60666183}}" data-hydro-click-hmac="60cbca4677d0b54afb1e2efcda1e9526fdb5b72243d7b1e08d25f01c1e5e49c4" data-ga-click="Repository, show fork modal, action:blob#show; text:Fork" type="submit" title="Fork your own copy of spujadas/getting-and-cleaning-data-course-project to your account" aria-label="Fork your own copy of spujadas/getting-and-cleaning-data-course-project to your account">              <svg class="octicon octicon-repo-forked v-align-text-bottom" viewBox="0 0 10 16" version="1.1" width="10" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M8 1a1.993 1.993 0 00-1 3.72V6L5 8 3 6V4.72A1.993 1.993 0 002 1a1.993 1.993 0 00-1 3.72V6.5l3 3v1.78A1.993 1.993 0 005 15a1.993 1.993 0 001-3.72V9.5l3-3V4.72A1.993 1.993 0 008 1zM2 4.2C1.34 4.2.8 3.65.8 3c0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2zm3 10c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2zm3-10c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2z"/></svg>
               Fork
 </button></form>
     <a href="/spujadas/getting-and-cleaning-data-course-project/network/members" class="social-count"
@@ -956,9 +960,9 @@
   
 
 
-    <a class="d-none js-permalink-shortcut" data-hotkey="y" href="/spujadas/getting-and-cleaning-data-course-project/blob/55b3ec72d228d9b60c69aa27f6fe36de48f881c1/README.md">Permalink</a>
+    <a class="d-none js-permalink-shortcut" data-hotkey="y" href="/spujadas/getting-and-cleaning-data-course-project/blob/55b3ec72d228d9b60c69aa27f6fe36de48f881c1/CodeBook.md">Permalink</a>
 
-    <!-- blob contrib key: blob_contributors:v22:f088fb5dc4153909c53b5f631d0d6dd6 -->
+    <!-- blob contrib key: blob_contributors:v22:98935c34e3946571ea98b9b06bcd8c26 -->
     
 
     <div class="d-flex flex-items-start flex-shrink-0 flex-column flex-md-row pb-3">
@@ -973,7 +977,7 @@
     <span class="dropdown-caret"></span>
   </summary>
 
-  <details-menu class="SelectMenu SelectMenu--hasFilter" src="/spujadas/getting-and-cleaning-data-course-project/refs/master/README.md?source_action=show&amp;source_controller=blob" preload>
+  <details-menu class="SelectMenu SelectMenu--hasFilter" src="/spujadas/getting-and-cleaning-data-course-project/refs/master/CodeBook.md?source_action=show&amp;source_controller=blob" preload>
     <div class="SelectMenu-modal">
       <include-fragment class="SelectMenu-loading" aria-label="Menu is loading">
         <svg class="octicon octicon-octoface anim-pulse" height="32" viewBox="0 0 16 16" version="1.1" width="32" aria-hidden="true"><path fill-rule="evenodd" d="M14.7 5.34c.13-.32.55-1.59-.13-3.31 0 0-1.05-.33-3.44 1.3-1-.28-2.07-.32-3.13-.32s-2.13.04-3.13.32c-2.39-1.64-3.44-1.3-3.44-1.3-.68 1.72-.26 2.99-.13 3.31C.49 6.21 0 7.33 0 8.69 0 13.84 3.33 15 7.98 15S16 13.84 16 8.69c0-1.36-.49-2.48-1.3-3.35zM8 14.02c-3.3 0-5.98-.15-5.98-3.35 0-.76.38-1.48 1.02-2.07 1.07-.98 2.9-.46 4.96-.46 2.07 0 3.88-.52 4.96.46.65.59 1.02 1.3 1.02 2.07 0 3.19-2.68 3.35-5.98 3.35zM5.49 9.01c-.66 0-1.2.8-1.2 1.78s.54 1.79 1.2 1.79c.66 0 1.2-.8 1.2-1.79s-.54-1.78-1.2-1.78zm5.02 0c-.66 0-1.2.79-1.2 1.78s.54 1.79 1.2 1.79c.66 0 1.2-.8 1.2-1.79s-.53-1.78-1.2-1.78z"/></svg>
@@ -989,13 +993,13 @@
                 data-hotkey="t">
             Find file
           </a>
-          <clipboard-copy value="README.md" class="btn btn-sm BtnGroup-item">
+          <clipboard-copy value="CodeBook.md" class="btn btn-sm BtnGroup-item">
             Copy path
           </clipboard-copy>
         </div>
       </span>
       <h2 id="blob-path" class="breadcrumb flex-auto min-width-0 text-normal flex-md-self-center ml-md-2 mr-md-3 my-2 my-md-0">
-        <span class="js-repo-root text-bold"><span class="js-path-segment"><a data-pjax="true" href="/spujadas/getting-and-cleaning-data-course-project"><span>getting-and-cleaning-data-course-project</span></a></span></span><span class="separator">/</span><strong class="final-path">README.md</strong>
+        <span class="js-repo-root text-bold"><span class="js-path-segment"><a data-pjax="true" href="/spujadas/getting-and-cleaning-data-course-project"><span>getting-and-cleaning-data-course-project</span></a></span></span><span class="separator">/</span><strong class="final-path">CodeBook.md</strong>
       </h2>
 
       <div class="BtnGroup flex-shrink-0 d-none d-md-inline-block">
@@ -1005,7 +1009,7 @@
               data-hotkey="t">
           Find file
         </a>
-        <clipboard-copy value="README.md" class="btn btn-sm BtnGroup-item">
+        <clipboard-copy value="CodeBook.md" class="btn btn-sm BtnGroup-item">
           Copy path
         </clipboard-copy>
       </div>
@@ -1039,7 +1043,7 @@
         <details-dialog
           class="Box Box--overlay d-flex flex-column anim-fade-in fast"
           aria-label="Users who have contributed to this file"
-          src="/spujadas/getting-and-cleaning-data-course-project/contributors-list/master/README.md" preload>
+          src="/spujadas/getting-and-cleaning-data-course-project/contributors-list/master/CodeBook.md" preload>
           <div class="Box-header">
             <button class="Box-btn-octicon btn-octicon float-right" type="button" aria-label="Close dialog" data-close-dialog>
               <svg class="octicon octicon-x" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M7.48 8l3.75 3.75-1.48 1.48L6 9.48l-3.75 3.75-1.48-1.48L4.52 8 .77 4.25l1.48-1.48L6 6.52l3.75-3.75 1.48 1.48L7.48 8z"/></svg>
@@ -1065,17 +1069,17 @@
 <div class="Box-header py-2 d-flex flex-column flex-shrink-0 flex-md-row flex-md-items-center">
   <div class="text-mono f6 flex-auto pr-3 flex-order-2 flex-md-order-1 mt-2 mt-md-0">
 
-      39 lines (26 sloc)
+      232 lines (149 sloc)
       <span class="file-info-divider"></span>
-    3.97 KB
+    10.9 KB
   </div>
 
   <div class="d-flex py-1 py-md-0 flex-auto flex-order-1 flex-md-order-2 flex-sm-grow-0 flex-justify-between">
 
     <div class="BtnGroup">
-      <a id="raw-url" class="btn btn-sm BtnGroup-item" href="/spujadas/getting-and-cleaning-data-course-project/raw/master/README.md">Raw</a>
-        <a class="btn btn-sm js-update-url-with-hash BtnGroup-item" data-hotkey="b" href="/spujadas/getting-and-cleaning-data-course-project/blame/master/README.md">Blame</a>
-      <a rel="nofollow" class="btn btn-sm BtnGroup-item" href="/spujadas/getting-and-cleaning-data-course-project/commits/master/README.md">History</a>
+      <a id="raw-url" class="btn btn-sm BtnGroup-item" href="/spujadas/getting-and-cleaning-data-course-project/raw/master/CodeBook.md">Raw</a>
+        <a class="btn btn-sm js-update-url-with-hash BtnGroup-item" data-hotkey="b" href="/spujadas/getting-and-cleaning-data-course-project/blame/master/CodeBook.md">Blame</a>
+      <a rel="nofollow" class="btn btn-sm BtnGroup-item" href="/spujadas/getting-and-cleaning-data-course-project/commits/master/CodeBook.md">History</a>
     </div>
 
 
@@ -1088,13 +1092,13 @@
               <svg class="octicon octicon-device-desktop" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M15 2H1c-.55 0-1 .45-1 1v9c0 .55.45 1 1 1h5.34c-.25.61-.86 1.39-2.34 2h8c-1.48-.61-2.09-1.39-2.34-2H15c.55 0 1-.45 1-1V3c0-.55-.45-1-1-1zm0 9H1V3h14v8z"/></svg>
           </a>
 
-          <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="inline-form js-update-url-with-hash" action="/spujadas/getting-and-cleaning-data-course-project/edit/master/README.md" accept-charset="UTF-8" method="post"><input type="hidden" name="authenticity_token" value="UkUjpd+6WCb/Xvk7ZqLfWJakjrV4DBidyUW41cTDz3QebFvtZvmObl5sU5mMnu/v7D9/9Ng8BN6GkALeg5tIVQ==" />
+          <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="inline-form js-update-url-with-hash" action="/spujadas/getting-and-cleaning-data-course-project/edit/master/CodeBook.md" accept-charset="UTF-8" method="post"><input type="hidden" name="authenticity_token" value="Y4H/jLXY89tS+hzRTUYzVUBw8IKYdX4A1DQyoe422WIvfta6mb3iP/+0jjLehybPPIweFUI5ziQTEZqgDqgCpw==" />
             <button class="btn-octicon tooltipped tooltipped-nw" type="submit"
               aria-label="Fork this project and edit the file" data-hotkey="e" data-disable-with>
               <svg class="octicon octicon-pencil" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M0 12v3h3l8-8-3-3-8 8zm3 2H1v-2h1v1h1v1zm10.3-9.3L12 6 9 3l1.3-1.3a.996.996 0 011.41 0l1.59 1.59c.39.39.39 1.02 0 1.41z"/></svg>
             </button>
 </form>
-          <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="inline-form" action="/spujadas/getting-and-cleaning-data-course-project/delete/master/README.md" accept-charset="UTF-8" method="post"><input type="hidden" name="authenticity_token" value="OC1XmrugX4TcWhLToHPpOwSZd+gxFEQUSXvWz7j95cHxN39SSKsVu1JzZBYRneXBO3jlpUjFJrIetc1545ah1A==" />
+          <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="inline-form" action="/spujadas/getting-and-cleaning-data-course-project/delete/master/CodeBook.md" accept-charset="UTF-8" method="post"><input type="hidden" name="authenticity_token" value="W8u2oRR32zXO2W78s9nz8BuWcfwpM8uIG7NzAgWhDoM0K1rDvO9UwG5ofkrynm9Fx1hUHL8vNfv+dh9EYOYkPg==" />
             <button class="btn-octicon btn-octicon-danger tooltipped tooltipped-nw" type="submit"
               aria-label="Fork this project and delete the file" data-disable-with>
               <svg class="octicon octicon-trashcan" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M11 2H9c0-.55-.45-1-1-1H5c-.55 0-1 .45-1 1H2c-.55 0-1 .45-1 1v1c0 .55.45 1 1 1v9c0 .55.45 1 1 1h7c.55 0 1-.45 1-1V5c.55 0 1-.45 1-1V3c0-.55-.45-1-1-1zm-1 12H3V5h1v8h1V5h1v8h1V5h1v8h1V5h1v9zm1-10H2V3h9v1z"/></svg>
@@ -1108,37 +1112,290 @@
 
       
   <div id="readme" class="Box-body readme blob js-code-block-container">
-    <article class="markdown-body entry-content p-3 p-md-6" itemprop="text"><h1><a id="user-content-coursera-getting-and-cleaning-data-course-project" class="anchor" aria-hidden="true" href="#coursera-getting-and-cleaning-data-course-project"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Coursera <em>Getting and Cleaning Data</em> course project</h1>
-<p>One of the most exciting areas in all of data science right now is wearable computing - see for example <a href="http://www.insideactivitytracking.com/data-science-activity-tracking-and-the-battle-for-the-worlds-top-sports-brand/" rel="nofollow">this article</a>. Companies like Fitbit, Nike, and Jawbone Up are racing to develop the most advanced algorithms to attract new users.</p>
-<p>In this project, data collected from the accelerometer and gyroscope of the Samsung Galaxy S smartphone was retrieved, worked with, and cleaned, to prepare a tidy data that can be used for later analysis.</p>
-<p>This repository contains the following files:</p>
+    <article class="markdown-body entry-content p-3 p-md-6" itemprop="text"><h1><a id="user-content-code-book-for-coursera-getting-and-cleaning-data-course-project" class="anchor" aria-hidden="true" href="#code-book-for-coursera-getting-and-cleaning-data-course-project"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Code book for Coursera <em>Getting and Cleaning Data</em> course project</h1>
+<p>The data set that this code book pertains to is located in the <code>tidy_data.txt</code> file of this repository.</p>
+<p>See the <code>README.md</code> file of this repository for background information on this data set.</p>
+<p>The structure of the data set is described in the <a href="#data">Data</a> section, its variables are listed in the <a href="#variables">Variables</a> section, and the transformations that were carried out to obtain the data set based on the source data are presented in the <a href="#transformations">Transformations</a> section.</p>
+<h2><a id="user-content-data-" class="anchor" aria-hidden="true" href="#data-"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Data <a name="user-content-data"></a></h2>
+<p>The <code>tidy_data.txt</code> data file is a text file, containing space-separated values.</p>
+<p>The first row contains the names of the variables, which are listed and described in the <a href="#variables">Variables</a> section, and the following rows contain the values of these variables.</p>
+<h2><a id="user-content-variables-" class="anchor" aria-hidden="true" href="#variables-"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Variables <a name="user-content-variables"></a></h2>
+<p>Each row contains, for a given subject and activity, 79 averaged signal measurements.</p>
+<h3><a id="user-content-identifiers-" class="anchor" aria-hidden="true" href="#identifiers-"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Identifiers <a name="user-content-identifiers"></a></h3>
 <ul>
-<li><code>README.md</code>, this file, which provides an overview of the data set and how it was created.</li>
-<li><code>tidy_data.txt</code>, which contains the data set.</li>
-<li><code>CodeBook.md</code>, the code book, which describes the contents of the data set (data, variables and transformations used to generate the data).</li>
-<li><code>run_analysis.R</code>, the R script that was used to create the data set (see the <a href="#creating-data-set">Creating the data set</a> section below)</li>
-</ul>
-<h2><a id="user-content-study-design-" class="anchor" aria-hidden="true" href="#study-design-"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Study design <a name="user-content-study-design"></a></h2>
-<p>The source data set that this project was based on was obtained from the <a href="http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones#" rel="nofollow">Human Activity Recognition Using Smartphones Data Set</a>, which describes how the data was initially collected as follows:</p>
-<blockquote>
-<p>The experiments have been carried out with a group of 30 volunteers within an age bracket of 19-48 years. Each person performed six activities (WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING) wearing a smartphone (Samsung Galaxy S II) on the waist. Using its embedded accelerometer and gyroscope, we captured 3-axial linear acceleration and 3-axial angular velocity at a constant rate of 50Hz. The experiments have been video-recorded to label the data manually. The obtained dataset has been randomly partitioned into two sets, where 70% of the volunteers was selected for generating the training data and 30% the test data.</p>
-<p>The sensor signals (accelerometer and gyroscope) were pre-processed by applying noise filters and then sampled in fixed-width sliding windows of 2.56 sec and 50% overlap (128 readings/window). The sensor acceleration signal, which has gravitational and body motion components, was separated using a Butterworth low-pass filter into body acceleration and gravity. The gravitational force is assumed to have only low frequency components, therefore a filter with 0.3 Hz cutoff frequency was used. From each window, a vector of features was obtained by calculating variables from the time and frequency domain.</p>
-</blockquote>
-<p>Training and test data were first merged together to create one data set, then the measurements on the mean and standard deviation were extracted for each measurement (79 variables extracted from the original 561), and then the measurements were averaged for each subject and activity, resulting in the final data set.</p>
-<h2><a id="user-content-creating-the-data-set-" class="anchor" aria-hidden="true" href="#creating-the-data-set-"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Creating the data set <a name="user-content-creating-data-set"></a></h2>
-<p>The R script <code>run_analysis.R</code> can be used to create the data set. It retrieves the source data set and transforms it to produce the final data set by implementing the following steps (see the Code book for details, as well as the comments in the script itself):</p>
+<li>
+<p><code>subject</code></p>
+<p>Subject identifier, integer, ranges from 1 to 30.</p>
+</li>
+<li>
+<p><code>activity</code></p>
+<p>Activity identifier, string with 6 possible values:</p>
 <ul>
-<li>Download and unzip source data if it doesn't exist.</li>
-<li>Read data.</li>
-<li>Merge the training and the test sets to create one data set.</li>
-<li>Extract only the measurements on the mean and standard deviation for each measurement.</li>
-<li>Use descriptive activity names to name the activities in the data set.</li>
-<li>Appropriately label the data set with descriptive variable names.</li>
-<li>Create a second, independent tidy set with the average of each variable for each activity and each subject.</li>
-<li>Write the data set to the <code>tidy_data.txt</code> file.</li>
+<li><code>WALKING</code>: subject was walking</li>
+<li><code>WALKING_UPSTAIRS</code>: subject was walking upstairs</li>
+<li><code>WALKING_DOWNSTAIRS</code>: subject was walking downstairs</li>
+<li><code>SITTING</code>: subject was sitting</li>
+<li><code>STANDING</code>: subject was standing</li>
+<li><code>LAYING</code>: subject was laying</li>
 </ul>
-<p>The <code>tidy_data.txt</code> in this repository was created by running the <code>run_analysis.R</code> script using R version 3.2.2 (2015-08-14) on Windows 8.1 64-bit edition.</p>
-<p>This script requires the <code>dplyr</code> package (version 0.4.3 was used).</p>
+</li>
+</ul>
+<h3><a id="user-content-average-of-measurements-" class="anchor" aria-hidden="true" href="#average-of-measurements-"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Average of measurements <a name="user-content-average-measurements"></a></h3>
+<p>All measurements are floating-point values, normalised and bounded within [-1,1].</p>
+<p>Prior to normalisation, acceleration measurements (variables containing <code>Accelerometer</code>) were made in <em>g</em>'s (9.81 m.s⁻²) and gyroscope measurements (variables containing <code>Gyroscope</code>) were made in radians per second (rad.s⁻¹).</p>
+<p>Magnitudes of three-dimensional signals (variables containing <code>Magnitude</code>) were calculated using the Euclidean norm.</p>
+<p>The measurements are classified in two domains:</p>
+<ul>
+<li>
+<p>Time-domain signals (variables prefixed by <code>timeDomain</code>), resulting from the capture of accelerometer and gyroscope raw signals.</p>
+</li>
+<li>
+<p>Frequency-domain signals (variables prefixed by <code>frequencyDomain</code>), resulting from the application of a Fast Fourier Transform (FFT) to some of the time-domain signals.</p>
+</li>
+</ul>
+<h4><a id="user-content-time-domain-signals" class="anchor" aria-hidden="true" href="#time-domain-signals"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Time-domain signals</h4>
+<ul>
+<li>
+<p>Average time-domain body acceleration in the X, Y and Z directions:</p>
+<ul>
+<li><code>timeDomainBodyAccelerometerMeanX</code></li>
+<li><code>timeDomainBodyAccelerometerMeanY</code></li>
+<li><code>timeDomainBodyAccelerometerMeanZ</code></li>
+</ul>
+</li>
+<li>
+<p>Standard deviation of the time-domain body acceleration in the X, Y and Z directions:</p>
+<ul>
+<li><code>timeDomainBodyAccelerometerStandardDeviationX</code></li>
+<li><code>timeDomainBodyAccelerometerStandardDeviationY</code></li>
+<li><code>timeDomainBodyAccelerometerStandardDeviationZ</code></li>
+</ul>
+</li>
+<li>
+<p>Average time-domain gravity acceleration in the X, Y and Z directions:</p>
+<ul>
+<li><code>timeDomainGravityAccelerometerMeanX</code></li>
+<li><code>timeDomainGravityAccelerometerMeanY</code></li>
+<li><code>timeDomainGravityAccelerometerMeanZ</code></li>
+</ul>
+</li>
+<li>
+<p>Standard deviation of the time-domain gravity acceleration in the X, Y and Z directions:</p>
+<ul>
+<li><code>timeDomainGravityAccelerometerStandardDeviationX</code></li>
+<li><code>timeDomainGravityAccelerometerStandardDeviationY</code></li>
+<li><code>timeDomainGravityAccelerometerStandardDeviationZ</code></li>
+</ul>
+</li>
+<li>
+<p>Average time-domain body acceleration jerk (derivation of the acceleration in time) in the X, Y and Z directions:</p>
+<ul>
+<li><code>timeDomainBodyAccelerometerJerkMeanX</code></li>
+<li><code>timeDomainBodyAccelerometerJerkMeanY</code></li>
+<li><code>timeDomainBodyAccelerometerJerkMeanZ</code></li>
+</ul>
+</li>
+<li>
+<p>Standard deviation of the time-domain body acceleration jerk (derivation of the acceleration in time) in the X, Y and Z directions:</p>
+<ul>
+<li><code>timeDomainBodyAccelerometerJerkStandardDeviationX</code></li>
+<li><code>timeDomainBodyAccelerometerJerkStandardDeviationY</code></li>
+<li><code>timeDomainBodyAccelerometerJerkStandardDeviationZ</code></li>
+</ul>
+</li>
+<li>
+<p>Average time-domain body angular velocity in the X, Y and Z directions:</p>
+<ul>
+<li><code>timeDomainBodyGyroscopeMeanX</code></li>
+<li><code>timeDomainBodyGyroscopeMeanY</code></li>
+<li><code>timeDomainBodyGyroscopeMeanZ</code></li>
+</ul>
+</li>
+<li>
+<p>Standard deviation of the time-domain body angular velocity in the X, Y and Z directions:</p>
+<ul>
+<li><code>timeDomainBodyGyroscopeStandardDeviationX</code></li>
+<li><code>timeDomainBodyGyroscopeStandardDeviationY</code></li>
+<li><code>timeDomainBodyGyroscopeStandardDeviationZ</code></li>
+</ul>
+</li>
+<li>
+<p>Average time-domain body angular velocity jerk (derivation of the angular velocity in time) in the X, Y and Z directions:</p>
+<ul>
+<li><code>timeDomainBodyGyroscopeJerkMeanX</code></li>
+<li><code>timeDomainBodyGyroscopeJerkMeanY</code></li>
+<li><code>timeDomainBodyGyroscopeJerkMeanZ</code></li>
+</ul>
+</li>
+<li>
+<p>Standard deviation of the time-domain body angular velocity jerk (derivation of the angular velocity in time) in the X, Y and Z directions:</p>
+<ul>
+<li><code>timeDomainBodyGyroscopeJerkStandardDeviationX</code></li>
+<li><code>timeDomainBodyGyroscopeJerkStandardDeviationY</code></li>
+<li><code>timeDomainBodyGyroscopeJerkStandardDeviationZ</code></li>
+</ul>
+</li>
+<li>
+<p>Average and standard deviation of the time-domain magnitude of body acceleration:</p>
+<ul>
+<li><code>timeDomainBodyAccelerometerMagnitudeMean</code></li>
+<li><code>timeDomainBodyAccelerometerMagnitudeStandardDeviation</code></li>
+</ul>
+</li>
+<li>
+<p>Average and standard deviation of the time-domain magnitude of gravity acceleration:</p>
+<ul>
+<li><code>timeDomainGravityAccelerometerMagnitudeMean</code></li>
+<li><code>timeDomainGravityAccelerometerMagnitudeStandardDeviation</code></li>
+</ul>
+</li>
+<li>
+<p>Average and standard deviation of the time-domain magnitude of body acceleration jerk (derivation of the acceleration in time):</p>
+<ul>
+<li><code>timeDomainBodyAccelerometerJerkMagnitudeMean</code></li>
+<li><code>timeDomainBodyAccelerometerJerkMagnitudeStandardDeviation</code></li>
+</ul>
+</li>
+<li>
+<p>Average and standard deviation of the time-domain magnitude of body angular velocity:</p>
+<ul>
+<li><code>timeDomainBodyGyroscopeMagnitudeMean</code></li>
+<li><code>timeDomainBodyGyroscopeMagnitudeStandardDeviation</code></li>
+</ul>
+</li>
+<li>
+<p>Average and standard deviation of the time-domain magnitude of body angular velocity jerk (derivation of the angular velocity in time):</p>
+<ul>
+<li><code>timeDomainBodyGyroscopeJerkMagnitudeMean</code></li>
+<li><code>timeDomainBodyGyroscopeJerkMagnitudeStandardDeviation</code></li>
+</ul>
+</li>
+</ul>
+<h4><a id="user-content-frequency-domain-signals" class="anchor" aria-hidden="true" href="#frequency-domain-signals"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Frequency-domain signals</h4>
+<ul>
+<li>
+<p>Average frequency-domain body acceleration in the X, Y and Z directions:</p>
+<ul>
+<li><code>frequencyDomainBodyAccelerometerMeanX</code></li>
+<li><code>frequencyDomainBodyAccelerometerMeanY</code></li>
+<li><code>frequencyDomainBodyAccelerometerMeanZ</code></li>
+</ul>
+</li>
+<li>
+<p>Standard deviation of the frequency-domain body acceleration in the X, Y and Z directions:</p>
+<ul>
+<li><code>frequencyDomainBodyAccelerometerStandardDeviationX</code></li>
+<li><code>frequencyDomainBodyAccelerometerStandardDeviationY</code></li>
+<li><code>frequencyDomainBodyAccelerometerStandardDeviationZ</code></li>
+</ul>
+</li>
+<li>
+<p>Weighted average of the frequency components of the frequency-domain body acceleration in the X, Y and Z directions:</p>
+<ul>
+<li><code>frequencyDomainBodyAccelerometerMeanFrequencyX</code></li>
+<li><code>frequencyDomainBodyAccelerometerMeanFrequencyY</code></li>
+<li><code>frequencyDomainBodyAccelerometerMeanFrequencyZ</code></li>
+</ul>
+</li>
+<li>
+<p>Average frequency-domain body acceleration jerk (derivation of the acceleration in time) in the X, Y and Z directions:</p>
+<ul>
+<li><code>frequencyDomainBodyAccelerometerJerkMeanX</code></li>
+<li><code>frequencyDomainBodyAccelerometerJerkMeanY</code></li>
+<li><code>frequencyDomainBodyAccelerometerJerkMeanZ</code></li>
+</ul>
+</li>
+<li>
+<p>Standard deviation of the frequency-domain body acceleration jerk (derivation of the acceleration in time) in the X, Y and Z directions:</p>
+<ul>
+<li><code>frequencyDomainBodyAccelerometerJerkStandardDeviationX</code></li>
+<li><code>frequencyDomainBodyAccelerometerJerkStandardDeviationY</code></li>
+<li><code>frequencyDomainBodyAccelerometerJerkStandardDeviationZ</code></li>
+</ul>
+</li>
+<li>
+<p>Weighted average of the frequency components of the frequency-domain body acceleration jerk (derivation of the acceleration in time) in the X, Y and Z directions:</p>
+<ul>
+<li><code>frequencyDomainBodyAccelerometerJerkMeanFrequencyX</code></li>
+<li><code>frequencyDomainBodyAccelerometerJerkMeanFrequencyY</code></li>
+<li><code>frequencyDomainBodyAccelerometerJerkMeanFrequencyZ</code></li>
+</ul>
+</li>
+<li>
+<p>Average frequency-domain body angular velocity in the X, Y and Z directions:</p>
+<ul>
+<li><code>frequencyDomainBodyGyroscopeMeanX</code></li>
+<li><code>frequencyDomainBodyGyroscopeMeanY</code></li>
+<li><code>frequencyDomainBodyGyroscopeMeanZ</code></li>
+</ul>
+</li>
+<li>
+<p>Standard deviation of the frequency-domain body angular velocity in the X, Y and Z directions:</p>
+<ul>
+<li><code>frequencyDomainBodyGyroscopeStandardDeviationX</code></li>
+<li><code>frequencyDomainBodyGyroscopeStandardDeviationY</code></li>
+<li><code>frequencyDomainBodyGyroscopeStandardDeviationZ</code></li>
+</ul>
+</li>
+<li>
+<p>Weighted average of the frequency components of the frequency-domain body angular velocity in the X, Y and Z directions:</p>
+<ul>
+<li><code>frequencyDomainBodyGyroscopeMeanFrequencyX</code></li>
+<li><code>frequencyDomainBodyGyroscopeMeanFrequencyY</code></li>
+<li><code>frequencyDomainBodyGyroscopeMeanFrequencyZ</code></li>
+</ul>
+</li>
+<li>
+<p>Average, standard deviation, and weighted average of the frequency components of the frequency-domain magnitude of body acceleration:</p>
+<ul>
+<li><code>frequencyDomainBodyAccelerometerMagnitudeMean</code></li>
+<li><code>frequencyDomainBodyAccelerometerMagnitudeStandardDeviation</code></li>
+<li><code>frequencyDomainBodyAccelerometerMagnitudeMeanFrequency</code></li>
+</ul>
+</li>
+<li>
+<p>Average, standard deviation, and weighted average of the frequency components of the frequency-domain magnitude of body acceleration jerk (derivation of the acceleration in time):</p>
+<ul>
+<li><code>frequencyDomainBodyAccelerometerJerkMagnitudeMean</code></li>
+<li><code>frequencyDomainBodyAccelerometerJerkMagnitudeStandardDeviation</code></li>
+<li><code>frequencyDomainBodyAccelerometerJerkMagnitudeMeanFrequency</code></li>
+</ul>
+</li>
+<li>
+<p>Average, standard deviation, and weighted average of the frequency components of the frequency-domain magnitude of body angular velocity:</p>
+<ul>
+<li><code>frequencyDomainBodyGyroscopeMagnitudeMean</code></li>
+<li><code>frequencyDomainBodyGyroscopeMagnitudeStandardDeviation</code></li>
+<li><code>frequencyDomainBodyGyroscopeMagnitudeMeanFrequency</code></li>
+</ul>
+</li>
+<li>
+<p>Average, standard deviation, and weighted average of the frequency components of the frequency-domain magnitude of body angular velocity jerk (derivation of the angular velocity in time):</p>
+<ul>
+<li><code>frequencyDomainBodyGyroscopeJerkMagnitudeMean</code></li>
+<li><code>frequencyDomainBodyGyroscopeJerkMagnitudeStandardDeviation</code></li>
+<li><code>frequencyDomainBodyGyroscopeJerkMagnitudeMeanFrequency</code></li>
+</ul>
+</li>
+</ul>
+<h2><a id="user-content-transformations-" class="anchor" aria-hidden="true" href="#transformations-"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Transformations <a name="user-content-transformations"></a></h2>
+<p>The zip file containing the source data is located at <a href="https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip" rel="nofollow">https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip</a>.</p>
+<p>The following transformations were applied to the source data:</p>
+<ol>
+<li>The training and test sets were merged to create one data set.</li>
+<li>The measurements on the mean and standard deviation (i.e. signals containing the strings <code>mean</code> and <code>std</code>) were extracted for each measurement, and the others were discarded.</li>
+<li>The activity identifiers (originally coded as integers between 1 and 6) were replaced with descriptive activity names (see <a href="#identifiers">Identifiers</a> section).</li>
+<li>The variable names were replaced with descriptive variable names (e.g. <code>tBodyAcc-mean()-X</code> was expanded to <code>timeDomainBodyAccelerometerMeanX</code>), using the following set of rules:
+<ul>
+<li>Special characters (i.e. <code>(</code>, <code>)</code>, and <code>-</code>) were removed</li>
+<li>The initial <code>f</code> and <code>t</code> were expanded to <code>frequencyDomain</code> and <code>timeDomain</code> respectively.</li>
+<li><code>Acc</code>, <code>Gyro</code>, <code>Mag</code>, <code>Freq</code>, <code>mean</code>, and <code>std</code> were replaced with <code>Accelerometer</code>, <code>Gyroscope</code>, <code>Magnitude</code>, <code>Frequency</code>, <code>Mean</code>, and <code>StandardDeviation</code> respectively.</li>
+<li>Replaced (supposedly incorrect as per source's <code>features_info.txt</code> file) <code>BodyBody</code> with <code>Body</code>.</li>
+</ul>
+</li>
+<li>From the data set in step 4, the final data set was created with the average of each variable for each activity and each subject.</li>
+</ol>
+<p>The collection of the source data and the transformations listed above were implemented by the <code>run_analysis.R</code> R script (see <code>README.md</code> file for usage instructions).</p>
 </article>
   </div>
 
